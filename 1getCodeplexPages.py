@@ -36,7 +36,6 @@ try:
     import urllib.request as urllib2
 except ImportError:
     import urllib2
-import pymysql
 
 # grab commandline args
 datasourceID = str(sys.argv[1])
